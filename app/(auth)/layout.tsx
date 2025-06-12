@@ -4,7 +4,7 @@ import React, {ReactNode} from 'react'
 // since each is an individual page, the type is ReactNode.
 const AuthLayout = ({children}: {children: ReactNode}) => {
   return (
-    <div>{children}</div>
+    <div className='auth-layout'>{children}</div>
   )
 }
 
